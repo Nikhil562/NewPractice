@@ -6,5 +6,5 @@ const CityRepository=require('./repository/city-repository');
 app.listen(PORT,()=>{
     console.log(`Connection at port no ${PORT}`)
     const repo=new CityRepository();
-    repo.createCity({name:"New York"})
+    repo.createCity({name:"York"})
 })
