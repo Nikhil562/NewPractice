@@ -38,4 +38,4 @@ app.get( routes '/user/:id', logStuff, (req, res, next) => {
 
 
 
-Express router 
+Express router is a very powerful way of writing clean code

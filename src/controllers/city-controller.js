@@ -89,6 +89,5 @@ module.exports = {
     create,
     destroy,
     get,
-    update,
-    getAll
+    update
 }
