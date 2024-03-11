@@ -1,0 +1,47 @@
+[33mcommit bd2525385f8126a8302783b25e31ffd200d48264[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: bhaiyu <niksharma34@gmail.com>
+Date:   Mon Mar 11 11:03:07 2024 +0530
+
+    Added City Service
+
+[33mcommit bfd7648f50f9c8f551fdde0669c90152b77ec0f5[m
+Author: bhaiyu <niksharma34@gmail.com>
+Date:   Mon Mar 11 02:10:32 2024 +0530
+
+    Completed city repository
+
+[33mcommit 6c55669c4a19d10f4d3fc9383e5703543e771a8c[m
+Author: bhaiyu <niksharma34@gmail.com>
+Date:   Sun Mar 10 21:13:09 2024 +0530
+
+    Added repository code
+
+[33mcommit e476a3ba82920aebcd0d8cd7eb622cd163091a66[m
+Author: bhaiyu <niksharma34@gmail.com>
+Date:   Sun Mar 10 18:53:21 2024 +0530
+
+     Added Readme
+
+[33mcommit 516eb57252d7bd5ec0b361bf2f296c9ed6cea18e[m
+Author: bhaiyu <niksharma34@gmail.com>
+Date:   Sun Mar 10 18:51:38 2024 +0530
+
+    Added city model and migrations
+
+[33mcommit 816994b518adf9946d6c58db6358609e37f45fbb[m
+Author: bhaiyu <niksharma34@gmail.com>
+Date:   Sun Mar 10 10:00:28 2024 +0530
+
+    Added sequelize sequselize-cli
+
+[33mcommit 63fdef1b1b3b5373578ee0deaceaae56dc581d8d[m
+Author: bhaiyu <niksharma34@gmail.com>
+Date:   Sun Mar 10 09:48:35 2024 +0530
+
+    Added config
+
+[33mcommit dce1fd91f78ad65092a291389bc3a19d5b8fd73b[m
+Author: bhaiyu <niksharma34@gmail.com>
+Date:   Sun Mar 10 09:21:44 2024 +0530
+
+    First commit setup index.js file

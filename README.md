@@ -22,3 +22,16 @@ Services will contain all business logic
 
 fun({abc}) if we do this destrcuturing then we dont need to do obj.abc we can directly use it as abc
 
+app.get('/',
+<!-- this part is controller :-// -->
+ (req, res) => {
+  res.send('hello world')
+  <!--  -->
+})
+                  <!-- Middle wares  -->
+const logStuff = [logOriginalUrl, logMethod]
+app.get( routes '/user/:id', logStuff, (req, res, next) => {
+  res.send('User Info')
+  <!-- controller -->
+})
+
