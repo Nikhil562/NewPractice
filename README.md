@@ -35,3 +35,7 @@ app.get( routes '/user/:id', logStuff, (req, res, next) => {
   <!-- controller -->
 })
 
+
+
+
+Express router 
