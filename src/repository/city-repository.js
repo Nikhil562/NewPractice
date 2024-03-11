@@ -27,12 +27,17 @@ class CityRepository{
 
     async updateCity(cityId,data){
         try {
-            const city=await City.update(data,{
-                where:{
-                    id:cityId
-                }
-            })
-            return city;
+            // const city=await City.update(data,{
+            //     where:{
+            //         id:cityId
+            //     }
+            // })
+            // return city;  This approach also work but wll not return updated obj in postman 
+
+            const city=await City.findByPk(cityId)
+            city.name=data.name;
+            await city.save()
+            return city
 
         } catch (error) {
             console.log("Something went wrong in the reposiroty layer")
