@@ -11,3 +11,14 @@ migration files says do u still want to make more changes here , if yes then do 
 db migrater command migrations your db with fact that new migrations which might not be applied will be applied 
 
 sequelizemeta data fill contains all migrations we applied on the db 
+
+If we run a migration bymistake:- npx sequelize db:migrate:undo
+
+
+Services will contain all business logic
+
+
+//Index.js in model:- whatever model we make it will fetch from here that's why we dont want to hemper it
+
+fun({abc}) if we do this destrcuturing then we dont need to do obj.abc we can directly use it as abc
+

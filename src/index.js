@@ -7,4 +7,4 @@ app.listen(PORT,()=>{
     console.log(`Connection at port no ${PORT}`)
     const repo=new CityRepository();
     repo.createCity({name:"York"})
-})
+}) 
