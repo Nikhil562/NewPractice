@@ -40,3 +40,9 @@ app.get( routes '/user/:id', logStuff, (req, res, next) => {
 
 Express router is a very powerful way of writing clean code
 <!-- xcopy C:\source D:\destination /E  to copy folder  -->
+
+
+<!-- Seeders can Help to put some starting data  -->
+
+to generate seed file:-
+npx sequelize seed :generate --name add-aiports
