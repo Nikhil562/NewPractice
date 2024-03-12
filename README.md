@@ -39,3 +39,4 @@ app.get( routes '/user/:id', logStuff, (req, res, next) => {
 
 
 Express router is a very powerful way of writing clean code
+<!-- xcopy C:\source D:\destination /E  to copy folder  -->
