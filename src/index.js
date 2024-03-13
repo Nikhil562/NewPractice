@@ -7,6 +7,7 @@ const {Airport, City}=require('./models/index')
 const sequelize= require('sequelize')
 const db= require('./models/index')
 const city=require('./models/city')
+const {Airplane}=require('./models/index')
 
 
 const setupAndStartServer = async () => {
@@ -50,6 +51,9 @@ const setupAndStartServer = async () => {
         if(process.env.SYNC_DB) {
             db.sequelize.sync({alter: true});//we need to sync all time  bs of synching we hv func slike getAirports, addAirports etc 
         }
+        // await Airplane.create({
+        //     modelNumber:"Bombardier CRJ"
+        // })
     });
 
 }
