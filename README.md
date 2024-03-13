@@ -46,3 +46,6 @@ Express router is a very powerful way of writing clean code
 
 to generate seed file:-
 npx sequelize seed :generate --name add-aiports
+
+
+Middleware is to check is request correct
