@@ -1,5 +1,7 @@
 const { CityService } = require('../services/index');
+
 const cityService = new CityService();
+
 const create = async (req, res) => {
     try {
         const city = await cityService.createCity(req.body);
@@ -10,6 +12,7 @@ const create = async (req, res) => {
             err: {}
         });
     } catch (error) {
+        console.log("citycontorller"),
         console.log(error);
         return res.status(500).json({
             data: {},
@@ -39,6 +42,7 @@ const destroy = async (req, res) => {
         });
     }
 }
+
 // GET -> /city/:id
 const get = async (req, res) => {
     try {
@@ -59,6 +63,7 @@ const get = async (req, res) => {
         });
     }
 }
+
 // Patch -> /city/:id -> req.body
 const update = async (req, res) => {
     try {
